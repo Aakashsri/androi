@@ -6,7 +6,16 @@ int main(){
     unsigned long t;
     cin>>t;
     //Akash here
-    
+    for(unsigned long int i=0;i<t;i++){
+        unsigned long int n,j;
+        unsigned long int k,qel,val=0;
+        vector<unsigned long int> Q;
+        cin>>n>>k;
+        unsigned long int pend=0;
+        for( j=0;j<n;j++){
+            cin>>qel;
+            Q.push_back(qel);
+        }
     
     
     //End
